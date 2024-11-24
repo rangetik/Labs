@@ -1,4 +1,4 @@
-const ipConverter = (ip = '10.0.0.1') => {
+const ipConverter = (ip = '127.0.0.1') => {
     const parts = ip.split('.');
     let result = 0;
 
